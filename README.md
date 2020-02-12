@@ -7,9 +7,9 @@
 - Enter the text “Max queries:” in cell `M3` and enter the maximum query count in `N3` using a formula.
 
 - Sort the data by `column D` (Query Count).  
-    - When did the maximum query count occur?
-    - What was the Query Text?
-    - What do you notice about the top 5 searches?
+    - When did the maximum query count occur? September 2019
+    - What was the Query Text? test
+    - What do you notice about the top 5 searches? First 3 have huge numbers compared to the rest. 4 of top 5 were in Sept and Aug, 5th was Jan
 
 - Enter the text “Year is number: “ in `M4`. Use a formula in `N4` to check the first value in the Year column (C) to see if it is a number.
 
@@ -44,9 +44,10 @@
 - Create a header at the top of column F called “Month Num”. Use a `VLOOKUP` to match the month name in the Month column (A) to the lookup table in `M11`:`N22` in order to populate the “Month Num” in column F.
 
 - Select columns A through F and create a custom sort (Home --> Sort & Filter --> Custom Sort). 
-- Sort by the largest to smallest Year as your first level, Month Num largest to smallest as your second value, and Query Text A-Z as your third level. Scroll through to find how many times “fairgrounds” was searched in July 2018.
 
-- Find which month in 2016 had the most searches for “fire”. Try to use a Custom Sort to save yourself from too much scrolling up and down.
+- Sort by the largest to smallest Year as your first level, Month Num largest to smallest as your second value, and Query Text A-Z as your third level. Scroll through to find how many times “fairgrounds” was searched in July 2018. 21
+
+- Find which month in 2016 had the most searches for “fire”. Try to use a Custom Sort to save yourself from too much scrolling up and down. -August
 
 - Enter text (“all query counts over 100:” in `M7` and use `COUNTIF()` in `N7` to count the number of times a query was run more than 100 times in a given month.
 
